@@ -1,0 +1,366 @@
+@import url('http://-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.header-elements {
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 18px;    
+}
+
+.menu{
+    display: flex;
+    cursor: pointer;
+}
+
+.menu-1,
+.menu-2,
+.menu-3,
+.menu-4,
+.menu-5{
+    padding-right: 20px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #6a6a6a;
+}
+
+.menu-1:hover{
+    color:#E20074;
+    cursor: pointer;
+}
+.menu-2:hover{
+    color:#E20074;
+    cursor: pointer;
+}
+.menu-3:hover{
+    color:#E20074;
+    cursor: pointer;
+}
+.menu-4:hover{
+    color:#E20074;
+    cursor: pointer;
+}
+.menu-5:hover{
+    color:#E20074;
+    cursor: pointer;
+}
+
+.header-logo{
+    width: 1903px;
+    height: 73px;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.logo {
+    width: 53px;
+    height: 51px;
+}
+
+.navbar-global{
+    font-size: 14px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right:0px;
+}
+
+.menu-navbar{
+    color: black;
+    font-size: 14px;
+    padding-right: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.menu-navbar-1,
+.menu-navbar-2,
+.menu-navbar-3,
+.menu-navbar-4,
+.menu-navbar-4{
+    padding-left: 42px;
+    
+}
+
+.menu-navbar-1:hover{
+    color: #E20074;
+    cursor: pointer;
+}
+
+.menu-navbar-2:hover{
+    color: #E20074;
+    cursor: pointer;
+}
+
+.menu-navbar-3:hover{
+    color: #E20074;
+    cursor: pointer;
+}
+
+.menu-navbar-4:hover{
+    color: #E20074;
+    cursor: pointer;
+}
+
+.menu-navbar-5:hover{
+    color: #E20074;
+    cursor: pointer;
+}
+
+.navbar-items{
+    margin-left: 540px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+.navbar-items-1,
+.navbar-items-2,
+.navbar-items-3,
+.navbar-items-4,
+.navbar-items-5 {
+    color: black; 
+    font-weight: bolder;
+    padding: 21px;
+    padding-right: 36px;
+}
+
+.navbar-items-1:hover,
+.navbar-items-2:hover,
+.navbar-items-3:hover,
+.navbar-items-4:hover {
+    color: #E20074;
+    cursor: pointer;
+    font-weight: bolder;
+    padding-right: 36px;
+}
+
+.navbar-items-5{
+    background-color: #E20074;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-items-5:hover{
+    background-color: #c50367;
+    color: white;
+}
+
+.header-pink{
+    background-color:#E20074;
+    width: 1903px;
+    height: 82px;
+    color: white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+h4 {
+    padding-right: 24px;
+    margin-top:32px;
+    margin-bottom:32px;
+    font-size: 18px;
+}
+
+.header-pink-link{
+    margin-top:34px;
+    margin-bottom:32px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.header-pink-link:hover{
+    margin-top:34px;
+    margin-bottom:32px;
+    font-size: 16px;
+    color: #cf98b4;
+    transition: 0.008;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+img{
+    height: 463px;
+    width: 1903px;
+    object-fit: cover;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.container-1 {
+    position: absolute;
+    top: 270px;
+    left: 380px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+}
+
+.container-2 {
+    font-family: 'Ubuntu',sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    font-size: 32px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+}
+
+.container-3{
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.container-4{
+    position: absolute;
+    top: 480px;
+    left: 380px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container-4:hover{
+    position: absolute;
+    top: 480px;
+    left: 380px;
+    font-size: 16px;
+    color: rgb(196, 194, 194);
+    text-shadow: 0px 0px 5px rgb(59, 59, 59);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container-5{
+    position: absolute;
+    top: 480px;
+    left: 540px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container-5:hover{
+    position: absolute;
+    top: 480px;
+    left: 540px;
+    font-size: 16px;
+    color: rgb(196, 194, 194);
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container-6{
+    position: absolute;
+    top: 540px;
+    left: 380px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+}
+
+/*              Sessão de Marketing (Segunda linha preta)                   */
+
+.sub-photo-principal{
+    background-color:#000000;
+    width: 1903px;
+    height: 82px;
+    top: 682px;
+    left: 250px;
+    color: white;
+    margin-top: 12px; 
+}
+
+
+.decored-link{
+    position: absolute;
+    top: 694px;
+    left: 1080px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.decored-link:hover{
+    position: absolute;
+    top: 694px;
+    left: 1080px;
+    font-size: 16px;
+    color: rgb(196, 194, 194);
+    text-shadow: 0px 0px 5px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.text-marketing{
+    padding-left: 670px;
+    font-size: 18px;
+    padding-top: 32px;
+}
+
+/*       Slike (Carrosel com Celulares Apple             */
+
+.slike{
+    width: 1903px;
+    height: 878px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 26px;
+    padding-top: 12px;
+}
+
+.slike .title-products .title-products-1{
+    width: 1903px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 52px;
+    font-weight: bolder;
+    margin-top: 16px;
+}
+
+.slike .second-title-products a{
+    width: 1903px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bolder;
+    color: #E20074;
+}
+
+.slike .second-title-products a:hover{
+    width: 1903px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bolder;
+    color: #e20075c2;
+    font-weight: bolder;
+    cursor: pointer;
+}
